@@ -4,7 +4,6 @@
 #include <DNSServer.h>
 #include <ESPAsyncWebSrv.h> // https://forum.arduino.cc/t/espasyncwebserver-h-no-such-file-or-directory-error-even-after-installing-espasyncwebsrv-library/1145099
 #include "handler.h"
-#include "html.h"
 
 // Configure the name of the access point
 const char *ssid = "Starbucks";

@@ -1,3 +1,5 @@
+#include "html.h"
+
 class CaptiveRequestHandler : public AsyncWebHandler
 {
 public:
