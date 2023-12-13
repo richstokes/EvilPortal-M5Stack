@@ -14,6 +14,14 @@ public:
     void handleRequest(AsyncWebServerRequest *request)
     {
 
+        // Handle requests to /signup
+        if (request->url().equalsIgnoreCase("/signup"))
+        {
+            Serial.println("Got signup web req");
+            request->send_P(200, "text/html", signup_html);
+            return;
+        }
+
         String inputUsername;
         String inputPassword;
 
